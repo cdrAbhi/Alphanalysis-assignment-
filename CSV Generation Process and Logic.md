@@ -1,5 +1,9 @@
 **CSV file Generation Process and Logic**
 ==========================================
+![image](https://github.com/user-attachments/assets/861ca8aa-47ea-42cf-b904-971310e65c20)
+
+![image](https://github.com/user-attachments/assets/bf292005-8b5c-49e9-8aba-88a2dc8bc712)
+
 
 ### **Objective:**
 The program generates a CSV file with a timetable-like format containing stock data based on user input for:
