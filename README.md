@@ -19,15 +19,18 @@ The program fetches daily stock data from Yahoo Finance and calculates the numbe
    - Handles user interaction, validates input, and generates the final CSV file.
    - Uses the `csv` module to write data into a CSV format.
 
-2. **`getRecord.py`:**
+2. ##`Install All Require module bu Running`:##
+   - pip install -r requirements.txt
+
+4. **`getRecord.py`:**
    - Extracts data from a predefined `Stocks.csv` file.
    - Calls `StockData.CreateRecord` to fetch and compute stock-related data.
 
-3. **`StockData.py`:**
+5. **`StockData.py`:**
    - Interfaces with the Yahoo Finance API to download daily stock data.
    - Computes the number of shares that can be purchased based on weightage and closing price.
 
-4. **`validate.py`:**
+6. **`validate.py`:**
    - Contains helper functions to validate user inputs for dates and total investment amount.
 
 ---
