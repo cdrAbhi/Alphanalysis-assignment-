@@ -19,7 +19,7 @@ The program fetches daily stock data from Yahoo Finance and calculates the numbe
    - Handles user interaction, validates input, and generates the final CSV file.
    - Uses the `csv` module to write data into a CSV format.
 
-2. **`Install All Require module bu Running`:**
+2. **`Install All Require module by Running`:**
    - pip install -r requirements.txt
 
 4. **`getRecord.py`:**
