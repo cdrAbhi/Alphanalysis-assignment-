@@ -4,6 +4,7 @@
 import csv
 from getRecord import recordlist ;
 import validate
+from getListDate import generate_date_list;
 
 option = """This program generates a CSV file with stock data based on the following parameters:
 - "TICKER"
@@ -36,10 +37,7 @@ edate = validate.validateDate("End_Date")
 total_investment = int(validate.ValidateTotalAmountValue())
 
 colnames = ["TICKER","WEIGHTAGE"]
-sdl = list(sdate.split("-"))
-edl = list(sdate.split("-"))
-for i in range(int(sdl[2]),int(edl[2])):
-    colnames.append(sdl[0]+"-"+sdl[1]+"-"+str(i))
+colnames.extend(generate_date_list(sdate,edate))
 
 #Step-2---->Take Records--always in the form of Lists in List
 records= recordlist(sdate,edate,total_investment)# Lists of list
